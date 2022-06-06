@@ -1,6 +1,6 @@
 **Olga Shcherbatykh**
 
-![photo](/2020-10-10-16-45-54.jpg)
+![photo](https://raw.githubusercontent.com/oscherbatykh/rss2/gh-pages/2020-10-10-16-45-54.jpg)
 
 **Contacts:**
 
