@@ -1,98 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>cv</title>
+        <title>Travel1</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header>
+            <a href="#"><img src="./image/logo.png" alt="Travel" /></a>
             <nav class="nav">
                 <ul>
-                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary">Summary</a></li>
-                    <li class="nav-item"><a href="#skills">Skills</a></li>
-                    <li class="nav-item"><a href="#code">Code</a></li>
-                    <li class="nav-item"><a href="#courses">Courses</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#education">Education</a></li>
-                    <li class="nav-item"><a href="#english">English</a></li>
+                    <li><a href="#prev">How It Works</a></li>
+                    <li><a href="#plan">Plan Your Trip</a></li>
+                    <li><a href="#dest">Destinations</a></li>
+                    <li><a href="#stor">Travel Stories</a></li>
                 </ul>
             </nav>
+            <button class="button button-small">Login</button>
         </header>
 
         <main>
-            <div class="single center photo">
-                <img src="https://oscherbatykh.github.io/rss2/2020-10-10-16-45-54.jpg" alt=" my photo" />
-            </div>
-
-            <div class="single center name">
-                <h1>Olga Scherbatykh</h1>
-                <p>Student front-end developer</p>
-            </div>
-
-            <section class="single" id="contacts">
-                <h2>Contacts</h2>
-                <ul>
-                    <li>Mozyr, Belarus</li>
-                    <li>E-mail: O.Scherbatykh@gmail.com</li>
-                    <li>Tel: +375297337110</li>
-                    <li>Github:oscherbatykh</li>
-                </ul>
+            <section id="prev" class="preview">
+                <div class="wraper_preview">
+                    <h1>Explore the beauty of the World</h1>
+                    <p>Receive personalized recommendations for countries, hotels, activities and more</p>
+                    <div class="search">
+                        <input type="text" placeholder="What would you like to do?" />
+                        <button class="button button-big">Start Planning</button>
+                    </div>
+                </div>
             </section>
 
-            <section class="single" id="summary">
-                <h2>Summary</h2>
-                <p>My name is Olga. I am 38 years old. I have a good family. Husband, 2 sons, house. I am a teacher by education. My hobby is sewing. I have free time and desire to study. I want to try my hand at front-end development.</p>
+            <section id="plan" class="steps">
+                <h2>3 STEPS TO THE PERFECT TRIP</h2>
+                <div class="steps-wrapper">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="fico fico-bic"></span>
+                                <span>Tell us what you want to do</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fico fico-cal"></span>
+                                <span>Share us preferable dates</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fico fico-plane"></span>
+                                <span>We will give you recommendations</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
-            <section class="single" id="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Web-development: HTML5, CSS3</li>
-                    <li>Version control: GIT, Github</li>
-                </ul>
+            <section id="dest" class="destinations">
+                <h2>POPULAR DESTINATIONS</h2>
+
+                <div class="destinations-wrapper">
+                    <div class="slider">
+                        <div class="slider-wrapper"><img src="./image/sl1.png" alt="slider1" /><img src="./image/sl3.png" alt="slider3" /><img src="./image/sl2.png" alt="slider2" /></div>
+                    </div>
+                    <div class="slider-nav">
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#" class="active"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <button class="button-arrow button button-big">Find More</button>
+                </div>
             </section>
 
-            <section class="single" id="code">
-                <h2>Code</h2>
-                <code>alert("Hello World")</code>
-            </section>
+            <section id="stor" class="stories">
+                <h2>TRAVEL STORIES</h2>
+                <div class="travel-stories-wrapper">
+                    <article>
+                        <img src="./image/thailand.png" alt="thailand" />
+                        <div class="single-item-description">
+                            <h3>10 Photos of Attractive Thailand</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br /><a href="#">Read More </a>
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./image/Canyonlands-National-Park.png" alt="Canyonlands-National-Park" />
+                        <div class="single-item-description">
+                            <h3>Canyonlands National Park, Utah</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br /><a href="#">Read More </a>
+                            </p>
+                        </div>
+                    </article>
 
-            <section class="single" id="courses">
-                <h2>Courses</h2>
-                <ul>
-                    <li>HTML and CSS Tutorials on the w3schools</li>
-                    <li>HTML and CSS WebReference</li>
-                    <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
-                </ul>
-            </section>
+                    <article>
+                        <img src="./image/Mountains.png" alt="Mountains" />
+                        <div class="single-item-description">
+                            <h3>I left my heart in the Mountains!</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br /><a href="#">Read More </a>
+                            </p>
+                        </div>
+                    </article>
 
-            <section class="single" id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/git-markdown.md">Markdown & Git</a></li>
-                    <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md">HTML, CSS & Git Basics</a></li>
-                </ul>
-            </section>
+                    <article>
+                        <img src="./image/Rectangle32.png" alt="car" />
+                        <div class="single-item-description">
+                            <h3>The Longest journey in my life!</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br /><a href="#">Read More </a>
+                            </p>
+                        </div>
+                    </article>
 
-            <section class="single" id="education">
-                <h2>Education</h2>
-                <p>University: Belarusian pedagogical University</p>
-            </section>
-
-            <section class="single" id="english">
-                <h2>English</h2>
-                <p>English - A2 (beginer)</p>
+                    <button class="button-arrow button button-big">See More</button>
+                </div>
             </section>
         </main>
 
         <footer>
-            <div class="footer footer-left">&copy; 2022 <a href="https://github.com/oscherbatykh/">oscherbatykh</a></div>
-            <div class="footer footer-right">
-                <a href="https://rs.school/js-stage0/"><img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RSS" /></a>
+            <div>
+                <p>All Rights Reserved © Travel Portal</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/oscherbatykh"> <img src="./image/instagram.png" alt="instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/oscherbatykh"> <img src="./image/you.png" alt="youtube" /></a>
+                    </li>
+                    <li>
+                        <a href="https://app.rs.school/"> <img src="./image/twitter.png" alt="twitter" /></a>
+                    </li>
+                </ul>
             </div>
         </footer>
     </body>
