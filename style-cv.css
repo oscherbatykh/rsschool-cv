@@ -237,6 +237,7 @@ h2 {
     color: #0d606f;
 }
 
+<<<<<<< HEAD:style.css
 .button-arrow {
     background: url(./image/arrow.png) #0d606f 25px 17px no-repeat;
     padding: 13px 31px 13px 81px;
@@ -261,4 +262,8 @@ footer .social ul li {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
+=======
+.footer-right {
+    text-align: right;
+>>>>>>> 76cf1a85c6fa4d31242e719a1a0eb2951d466c20:style-cv.css
 }
